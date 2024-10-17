@@ -1,32 +1,5 @@
-Folder Structure
-studea/
-│
-├── client/                    # React frontend
-│   ├── public/                 # Static assets
-│   ├── src/
-│   │   ├── components/         # Reusable React components
-│   │   │   ├── Scenario.js     # Scenario component
-│   │   │   ├── Quiz.js         # Timed quiz component
-│   │   │   ├── Summary.js      # Post-quiz feedback component
-│   │   │   └── TranslateButton.js # For manual translations
-│   │   ├── services/           # API calls and utils
-│   │   │   └── api.js          # API service for interacting with backend
-│   │   ├── App.js              # Main app component
-│   │   └── index.js            # App entry point
-│   └── package.json
-│
-├── server/                     # Node.js Express server
-│   ├── controllers/            # API controllers
-│   │   └── aiController.js     # Controller to interact with Azure OpenAI
-│   │   └── translateController.js # Controller to interact with Azure Translator
-│   ├── routes/                 # API routes
-│   │   ├── aiRoutes.js         # Routes for AI interactions
-│   │   └── translateRoutes.js  # Routes for translation
-│   ├── db/                     # Database connection logic
-│   │   └── cosmos.js           # Azure Cosmos DB connection
-│   ├── app.js                  # Main Express server setup
-│   └── package.json
-└── README.md
+**STUDEA**
+
 **Component Breakdown**
 Frontend (React)
 -Scenario.js: This component will display a dynamically generated learning scenario in Spanish. It will fetch the scenario from the backend and render it on the screen.
