@@ -1,0 +1,172 @@
+.layout {
+  width: 100%;
+  display: grid;
+  grid:
+    "header" auto
+    "main" 1fr
+    "footer" auto
+    / 1fr;
+  gap: 8px;
+}
+
+.header { grid-area: header; }
+.main { 
+  grid-area: main; 
+  flex: 1;
+}
+
+.footer { grid-area: footer; }
+
+.main-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.greeting{
+   text-align: center;
+    margin: 50px 0px;
+    font-size: 56px;
+    color: #c4c7c5;
+    font-weight: 500;
+    padding: 20px;
+}
+.greeting p{
+    color: black;
+    
+}
+
+.button-74 {
+  background-color: #FFCC5C;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.lineart{
+  display: block;          /* Ensures the image stays below the button */
+  margin: 0 auto;          /* Center the image */
+  width: 100%;             /* Makes the image responsive */
+  max-width: 70%;       
+  height: auto;  
+
+}
+
+.scenario{
+  border: 2px solid;
+  border-radius: 20px;
+  border-color: #422800;
+  padding: 30px;
+
+}
+ .scenario p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: #422800;
+ }
+ .scenario h2{
+  color: #ff7863;
+ }
+
+/* Carousel container */
+.carousel {
+  position: relative;
+  display: inline-block;
+  font-size: 40px; /* Adjust the size as needed */
+  font-weight: bold;
+  color: #6fcb9f;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  line-height: 50px;
+}
+
+/* Static "pre" text */
+.carousel .pre {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  color: #6fcb9f;
+  text-shadow: 2px 2px 2px #6fcb9f;
+}
+
+/* "post" text after the carousel */
+.carousel .post {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: inherit;
+  font-weight: inherit;
+  color: black;
+}
+
+/* Carousel animation container */
+.change_outer {
+  display: inline-block;
+  overflow: hidden;
+  height: 50px; /* Adjust to fit the line height */
+  position: relative;
+  vertical-align: top;
+}
+
+.change_inner {
+  position: relative;
+  animation: rotate 8s ease-in-out infinite;
+}
+
+/* Rotating elements */
+.element {
+  font-size: inherit;
+  font-weight: inherit;
+  height: 50px; /* Match the height */
+}
+
+/* Animation keyframes */
+@keyframes rotate {
+  0%, 20% {
+      transform: translateY(0);
+  }
+  25%, 45% {
+      transform: translateY(-50px); /* Move up by one line */
+  }
+  50%, 70% {
+      transform: translateY(-100px); /* Move up by two lines */
+  }
+  75%, 95% {
+      transform: translateY(-150px); /* Move up by three lines */
+  }
+  100% {
+      transform: translateY(0); /* Reset to the first line */
+  }
+}
+
+
