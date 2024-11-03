@@ -33,3 +33,11 @@ APIs:
 Translator Text API: Translates text from English to Spanish or vice versa.
 
 ![Screenshot 2024-11-03 122617](https://github.com/user-attachments/assets/a24ffdde-d52f-4f14-9f84-c9922c6cf417)
+
+![image](https://github.com/user-attachments/assets/dc0a84f3-0f7a-4db1-bcf1-820d220a40e8)
+
+![image](https://github.com/user-attachments/assets/2b3b224f-7f4b-4288-95b1-9163f134ef0b)
+![image](https://github.com/user-attachments/assets/a75c3edf-d472-4b6d-a413-031994804fd7)
+
+
+
